@@ -5,7 +5,9 @@
   "scripts": {
     "start": "babel-node scripts/server.js",
     "localtunnel": "lt --port 3000",
-    "build": "webpack"
+    "build": "webpack",
+    "preshare": "node scripts/startMessage.js",
+    "postshare": "node scripts/endMessage.js"
   },
   "author": "1ntsko",
   "devDependencies": {
