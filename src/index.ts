@@ -1,9 +1,1 @@
-import { bla } from "./scripts/bla";
-
-function sum(a: number, b: number): number {
-  return a + b;
-}
-
-console.log(sum(1, 1));
-
-bla("lasha");
+console.log(3 ?? 5);
